@@ -10,14 +10,43 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <style>
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgb(248, 0, 116);
+        padding: 0.6em;
+          margin-bottom: 1em;
+      }
+    </style>
   </head>
   <body>
-    <div class="container text-center">
-      <img src="img\in-stops.jpg" alt="MyPhoto" width="200" />
-      <h1>This is my photo</h1>
-      <p>My name is Nikolai Kovalenko. I from Shosotka</p>
-      <button>Like</button>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-6 cok-md-10 mx-auto">
+          <img class="rounded-img" src="img\in-stops.jpg" alt="MyPhoto width 400 src  400"  />
+          <h1 class="fw-light">Nikolai Kovalenko</h1>
+          <p class="lead text-muted">
+            This is my photo. I am from Ukraine, Shostka. I enjoy developing and
+            creating a new project, because this is my first project and I want
+            to make it very beautiful.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=W4MIiV4nZDY&t=3969s"
+            target="_blank"
+            class="btn btn-primary "
+          >
+            My website
+          </a>
+          <a
+            href="https://getbootstrap.com/docs/5.1/components/modal/"
+            target="_blank"
+            class="btn btn-warning"
+          >
+            Banana button
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
-<!-- изображение, Н1, параграф и кнопка -->
